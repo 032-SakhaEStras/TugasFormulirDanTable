@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form dan Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulir Buatan Sakha</h1>
+    <div nama>
+        <form>
+            <label>Nama Lengkap:</label>
+            <input type="text">
+        </form>
+    </div>
+    <div kelas>
+        <label for="kelas">Pilih kelas:</label>
+        <select id="kelas" name="kelas">
+            <option>XII RPL 1</option>
+            <option>XII RPL 2</option>
+            <option>XII RPL 3</option>
+        </select>
+    </div>
+    <div jk>
+        <label for="jenisKelamin">Pilih Jenis Kelamin:</label>
+        <input type="radio" name="jk">Laki-Laki
+        <input type="radio" name="jk">Perempuan
+    </div>
+    <div ekstrakurikuler>
+        <label for="ekskul">Pilih Salah Satu Ekstrakurikuler</label>
+        <select id="ekskul" name="ekskul">
+            <option>Web Programming</option>
+            <option>Desain Grafis</option>
+            <option>Robotika</option>
+            <option>Futsal</option>
+        </select>
+    </div>
+    <div nomorTelepon>
+        <label>Nomor Telepon:</label>
+        <input type="Telepon">
+    </div>
+    <div alasanEkskul>
+        <label>Alasan kenapa mengikuti ekstrakurikuler</label>
+        <textarea rows="4"></textarea>
+    </div>
+    <button type="submit">Kirim</button>
+    <button type="reset">Reset</button>
+
+    <h1>Daftar Peserta Ekstrakurikuler</h1>
+
+    <table>
+        <tr>
+            <th>Nomor</th>
+            <th>Nama Siswa</th>
+            <th>Kelas</th>
+            <th>Jenis Kelamin</th>
+            <th>Ekstrakurikuler</th>
+            <th>Nomor Telepon</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Sakha</td>
+            <td>XII RPL 2</td>
+            <td>Laki-Laki</td>
+            <td>Web Programming</td>
+            <td>08962</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Gilang</td>
+            <td>XII RPL 2</td>
+            <td>Laki-Laki</td>
+            <td>Desain Grafis</td>
+            <td>08392</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Marsha</td>
+            <td>XII DKV 5</td>
+            <td>Perempuan</td>
+            <td>Akuntasi</td>
+            <td>08053</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Bagus</td>
+            <td>XII MPLBB</td>
+            <td>Laki-Laki</td>
+            <td>Badminton</td>
+            <td>08851</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>Rama</td>
+            <td>XII RPL 1</td>
+            <td>Perempuan</td>
+            <td>Basketball</td>
+            <td>08221</td>
+        </tr>
+    </table>
+</body>
+</html>
